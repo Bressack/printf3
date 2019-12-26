@@ -6,7 +6,7 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/30 23:18:31 by tharchen          #+#    #+#             */
-/*   Updated: 2019/11/15 13:37:04 by tharchen         ###   ########.fr       */
+/*   Updated: 2019/12/26 17:21:24 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -220,9 +220,7 @@ int			ft_vprintf(const char *fmt, va_list ap)
 			overwrites_handle(&cn);
 		}
 		else
-		{
 			write_buf(&cn, &FMT_AC, 1);
-		}
 		cn.i++;
 	}
 	write_buf(&cn, NULL, BUFF_SIZE);
